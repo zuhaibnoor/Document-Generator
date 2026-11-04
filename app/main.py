@@ -1,7 +1,9 @@
 from fastapi import FastAPI, HTTPException
 
+from app.gemini import ask_gemini
 from app.models import ScopeSheetRequest, ScopeSheetResponse
-from app.scope_sheet import ask_gemini, build_response, decode_transcript
+from app.transcript import decode_transcript
+from app.csv_sheet import build_response
 
 app = FastAPI()
 

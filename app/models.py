@@ -22,6 +22,5 @@ class ScopeSheet(BaseModel):
 
 class ScopeSheetResponse(BaseModel):
     file_name: str
-    content_type: str
-    content_base64: str
+    csv: str
     row_count: int

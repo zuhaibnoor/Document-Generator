@@ -5,4 +5,3 @@
 azure-functions
 fastapi
 google-genai>=2.21.0
-openpyxl
